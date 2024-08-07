@@ -9,6 +9,7 @@ import { SlBadge } from "react-icons/sl";
 import { PiGraduationCap } from "react-icons/pi";
 import { NavHashLink } from "react-router-hash-link";
 import { useLocation } from "react-router-dom";
+import { CgProfile } from "react-icons/cg";
 
 const navigation = [
   {
@@ -40,6 +41,11 @@ const navigation = [
     to: "#education-section",
     name: "Education",
     icon: <PiGraduationCap />,
+  },
+  {
+    to: "https://drive.google.com/file/d/1xmzm-o0aolvoY-6KZqhoXj-kSMquvBOb/view?usp=sharing",
+    name: "Resume",
+    icon: <CgProfile />,
   },
 ];
 
