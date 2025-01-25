@@ -9,7 +9,8 @@ import { SlBadge } from "react-icons/sl";
 import { PiGraduationCap } from "react-icons/pi";
 import { NavHashLink } from "react-router-hash-link";
 import { useLocation } from "react-router-dom";
-import { CgProfile } from "react-icons/cg";
+import { IoIosContact } from "react-icons/io";
+import { MdOutlineContactPage } from "react-icons/md";
 
 const navigation = [
   {
@@ -19,7 +20,7 @@ const navigation = [
   },
   {
     to: "#about-section",
-    name: "About Me",
+    name: "About",
     icon: <PiPersonSimpleSnowboardThin />,
   },
   {
@@ -43,9 +44,14 @@ const navigation = [
     icon: <PiGraduationCap />,
   },
   {
-    to: "https://drive.google.com/file/d/1xmzm-o0aolvoY-6KZqhoXj-kSMquvBOb/view?usp=sharing",
+    to: "#contact-section",
+    name: "Contact",
+    icon: <IoIosContact />,
+  },
+  {
+    to: "https://drive.google.com/file/d/1MlMmBX19cLMauxjBGdxgr3PtW7hpLcKn/view?usp=sharing",
     name: "Resume",
-    icon: <CgProfile />,
+    icon: <MdOutlineContactPage />,
   },
 ];
 

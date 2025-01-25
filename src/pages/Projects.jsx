@@ -50,7 +50,7 @@ const Projects = () => {
         <RiTailwindCssFill key="tailwind" className="text-blue-500" />,
         <IoLogoFirebase key="firebase" className="text-orange-700" />,
       ],
-      liveLink: "https://preamble-resume-builder.vercel.app",
+      liveLink: "https://preamble-resume.vercel.app",
       github: "https://github.com/Sahilz9/Preamble-Programmers_028",
     },
     {

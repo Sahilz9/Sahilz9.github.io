@@ -180,7 +180,7 @@ const Education = () => {
                 Dayawati Modi Academy
               </h3>
               <h3 className="flex gap-x-1.5 font-semibold text-slate-400 text-lg">
-                6th grade - HSC
+                6th - HSC
               </h3>
               <ul className="list-disc text-base mt-2 w-full sm:text-base	text-gray-400">
                 <li className="hover:text-gray-300 duration-300">
@@ -219,9 +219,7 @@ const Education = () => {
         />
       </div>
 
-      <div className="mt-10 sm:mt-20 mb-[-5em]">
-        <p className="text-slate-500">Made with 🐞</p>
-      </div>
+      
     </section>
   );
 };

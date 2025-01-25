@@ -56,7 +56,7 @@ const Home = () => {
       setCurrentQuoteIndex((prevIndex) =>
         prevIndex === quotes.length - 1 ? 0 : prevIndex + 1
       );
-    }, 4000);
+    }, 6000);
     return () => clearInterval(interval);
   }, []);
 

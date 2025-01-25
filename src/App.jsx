@@ -10,6 +10,8 @@ import Experience from "./pages/Experience";
 import Education from "./pages/Education";
 import About from "./pages/About";
 import Home from "./pages/Home";
+import Connect from "./pages/Connect";
+import Footer from "./pages/Footer";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -47,6 +49,8 @@ function App() {
       <Experience />
       <Skills />
       <Education />
+      <Connect />
+      <Footer />
     </>
   );
 }

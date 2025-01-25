@@ -312,3 +312,17 @@ span::before {
 #skills-name {
   border: 0.5px solid rgb(63, 63, 63);
 }
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.floating {
+  animation: float 4s ease-in-out infinite;
+}

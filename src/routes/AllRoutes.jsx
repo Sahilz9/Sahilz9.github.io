@@ -4,6 +4,7 @@ import Projects from "../pages/Projects";
 import Experience from "../pages/Experience";
 import About from "../pages/About";
 import Skills from "../pages/Skills";
+import Connect from "../pages/Connect";
 
 const AllRoutes = () => {
   return (
@@ -14,6 +15,7 @@ const AllRoutes = () => {
         <Route path="#experience-section" element={<Experience />} />
         <Route path="#about-section" element={<About />} />
         <Route path="#skills-section" element={<Skills />} />
+        <Route path="#contact-section" element={<Connect />} />
       </Routes>
     </>
   );
