@@ -9,8 +9,8 @@ const Experience = () => {
 
 
   const mastersUnionTechStacks = [
-    "#NodeJs",
-    "#ExpressJs",
+    "#Node.js",
+    "#Express.js",
     "#PostgreSQL",
     "#SQL",
     "#MongoDB",
@@ -87,22 +87,15 @@ const Experience = () => {
               <p className="mt-2 w-full">
                 <ul className="list-disc text-md sm:text-lg text-gray-500">
                   <li className="hover:text-gray-400 duration-300">
-                    Acquired proficiency in ReactJs through hands-on learning
-                    and project development during the dynamic 3-month
-                    internship at Parangat Technologies.
+                    Actively contributing to the development of a dynamic student management system, leveraging React.js, Express, Sequelize, and PostgreSQL.
                   </li>
                   <br />
                   <li className="hover:text-gray-400 duration-300">
-                    Contributed to Dashboard Projects at Parangat Technologies,
-                    focusing on the UI development using JavaScript, ReactJs,
-                    and Chakra UI.
+                    Engineered solutions for dynamic data collection, enabling the creation of customizable forms to meet evolving project requirements.
                   </li>
                   <br />
                   <li className="hover:text-gray-400 duration-300">
-                    Applied test cases, enhancing user experience with UI
-                    libraries like Chakra UI and Redux for efficient state
-                    management, optimizing the performance and responsiveness of
-                    the project.
+                    Collaborating with cross-functional teams to enhance user experience and optimize data handling processes.
                   </li>
                 </ul>
               </p>

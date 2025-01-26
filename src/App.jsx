@@ -12,6 +12,7 @@ import About from "./pages/About";
 import Home from "./pages/Home";
 import Connect from "./pages/Connect";
 import Footer from "./pages/Footer";
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -51,6 +52,7 @@ function App() {
       <Education />
       <Connect />
       <Footer />
+      <ToastContainer />
     </>
   );
 }
